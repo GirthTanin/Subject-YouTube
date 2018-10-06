@@ -1,0 +1,143 @@
+.wrapper {
+    background-color:#f8f8f8;
+}
+
+.container {
+    background-color: #f8f8f8;
+}
+
+.jumbotron {
+    text-align: center;
+    color: ghostwhite;
+    /* background-image: url("./public/images/Watertown-Sunset.jpg"); */
+    background-color:#121233;
+}
+
+.welcome {
+    text-align: center;
+    color: black;
+    background-image: url("./public/images/Watertown-Sunset.JPG");
+    height: 400px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* background-color:#121233; */
+}
+
+.container-fluid {
+    color: ghostwhite;
+    font-family: 'Poppins' , helvetica;
+}
+
+/* stolen from save the date css */
+.list-group-item {
+    line-height: 2.5;
+  }
+  
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: black;
+  }
+  p {
+    font-size: 16px;
+  }
+  
+  .margin {margin-bottom: 45px;}
+  
+  .bg-1 { 
+    background-color: #425b91; /* lighter blue */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .container-fluid-2 {
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .navbar {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  
+  .profile-img{
+  
+    height: 500px;
+  }
+  
+  .message-history{
+    background-color:  #5a7eca;
+    margin: 10px 0;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+  
+  }
+  
+  .list-group{
+    border-radius: 10px;
+    margin: 0 20px;
+  
+  }
+  
+  #user-info-list {
+    filter: drop-shadow(10px 10px 4px #00305c);
+    border-radius: 10px;
+  }
+  
+  #history-list{
+    margin-bottom: 10%;
+    filter: drop-shadow(10px 10px 4px #00305c);
+  }
+  
+  #user-info{
+    color: black;
+  }
+  
+  #profilepic-update {
+    color: white;
+  }
+  
+  #user-heading {
+    color: lightgray;
+  }
+  
+  .delete{
+    float: right;
+  }
+  
+  .update{
+    float: right;
+    margin-right: 10px;
+  }
+  
+  #messages-heading {
+    margin-left: 30px;
+  }

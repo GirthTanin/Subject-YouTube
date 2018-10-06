@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class = "wrapper">
-        <!-- Navbar -->
+<!-- Navbar -->
 <nav class="navbar navbar-default">
         <div class="container">
           <div class="navbar-header">
@@ -35,20 +35,34 @@
           </div>
         </div>
       </nav>
-        <div class = "container">
-            <div class="jumbotron bg-2 text-center">
-                <h1 style= "color: red;">[Subject]YouTube</h1>      
-                <p>Stay on target.  Video tutorials that don't lead one astray.</p>
-            </div>
-            
-                <div class="welcome text-center img-rounded">
-                    <br>
-                    <h2>Distraction is all around.
-                    </h2>
-                    <h2>Here is a calm place to observe and learn.</h2>
-                </div>
+      
+      <div class="jumbotron bg-2 text-center">
+        <h2>Welcome! Please Sign in!</h2>
+      </div>
+        <form id="signup" name="signup" method="post" action="/signup" class="text-center">
+          <label for="email">Email Address&nbsp&nbsp</label>
+          <input class="text" name="email" type="email" placeholder="gracefullExit@email.com"/>
             <br>
-        </div>
-    </div>
-</body>
-</html>
+            <br>
+          <label for="firstname">First Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+          <input name="firstname" type="text" placeholder="Robert" />
+            <br>
+            <br>
+          <label for="lastname">Last Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+          <input name="lastname" type="text" placeholder="Mueller" />
+            <br>
+            <br>
+          <label for="password">Password&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+          <input name="password" type="password" placeholder="1234 just like my luggage"/>
+            <br>
+            <br>
+        <input class="btn active" type="submit" value="Sign Up" />
+      </form>
+      <br>
+      
+      <div class="bg-2 text-center">Already have an account?</div>
+      <div class="bg-2 text-center">
+        <a href="/signin">Sign In</a>
+      </div>
+      </div>
+      </body>
