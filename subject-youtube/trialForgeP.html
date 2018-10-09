@@ -1,0 +1,147 @@
+<!-- This is meant to be my testing ground for creating the elements on a web page styling components and the other one. --> 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[Subject]YouTube</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>[Subject] YouTube</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="./trialForge.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class = "wrapper">
+        <!-- Navbar -->
+<nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">[Subject]Youtube</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/subjects">[Subjects]</a></li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="/exit">Log Out</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <div class = "container">
+                <div class="container-fluid bg-2">
+                        <div class="row">
+                            <div id="user-info" class="col-sm-10 col-sm-offset-1">
+                                    <img class="img" src={{user.profilepic}}>
+                                    <div class="body">
+                                        <h1 id="user-heading" class="title">{{user.firstname}} {{user.lastname}}</h1>
+                                    </div>
+                                    <div class="body">
+                                        <a href="#" id="profilepic-update" class="card-link">Add/Update Profile Picture</a>
+                                    </div>
+                                    <div id="user-info-list">
+                                        <ul class="list-group list-group-flush">
+                                            <li id="email" class="list-group-item">Email: {{user.email}}<p class="text-danger">click to edit</p></li>
+                                            <li id="rank" class="list-group-item">Rank: {{user.rank}}<p class="text-danger">click to edit</p></li>
+                                            <li class="list-group-item">Member since: {{user.createdAt}}</li>
+                                        </ul>
+                                    </div>
+                            </div><!--col end-->
+                        </div><!--row end-->
+                        
+                
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-2">
+                        <h2>[Subject] History:</h2>
+                            <div id="history-list">   
+                
+                                {{#each user.Subjects}}
+                                    <div class="subject-history">
+                                        <h3>{{this.body}}<h3>
+                                        <h3>sent on: {{this.subjectDatabase}}</h3>
+                                        <div id="begin-btn" class="btn btn-warning begin" data-id={{this.id}}>Begin</div>
+                                    </div>
+                                {{/each }}
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                    </div><!--container end-->
+                            
+                    <div class="modal" id="resendDiv">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title"><i class="fas fa-exclamation"></i>Resend you Message!</h2>
+                                    <div id="modal-close" class="btn btn-danger">X</div>
+                                </div>
+                                                <!--End modal header-->
+                                <div class="modal-body">
+                                    <h3>Enter a new send time below</h3>
+                                    <input id="sendTime" name="sendTime">
+                                    <button type="submit" id="resend-submit" class="btn btn-primary">Resend</button>
+                                </div>
+                                                <!--End modal body-->
+                            </div>
+                                            <!--End modal content-->
+                        </div>
+                                        <!--End modal-dialog-->
+                    </div>
+                
+                    <div class="modal" id="profilepicDiv">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title"><i class="fas fa-exclamation"></i>Resend you Message!</h2>
+                                    <div id="modal-close-pic" class="btn btn-danger">X</div>
+                                </div>
+                                                <!--End modal header-->
+                                <div class="modal-body">
+                                    <h3>Enter an image url here</h3>
+                                    <input id="profilepic-input" name="profilepic" placeholder="https://i.imgur.com/example.jpg">
+                                    <button type="submit" id="profilepic-submit" class="btn btn-primary">Submit</button>
+                                </div>
+                                                <!--End modal body-->
+                            </div>
+                                            <!--End modal content-->
+                        </div>
+                                        <!--End modal-dialog-->
+                    </div>
+                
+                    <div class="modal" id="profileinfoDiv">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title"><i class="fas fa-exclamation"></i>Update Your Information</h2>
+                                    <div id="modal-close-info" class="btn btn-danger">X</div>
+                                </div>
+                                                <!--End modal header-->
+                                <div class="modal-body">
+                                    <h3>Enter new email/phone number here</h3>
+                                    <input id="profileinfo-input" name="profileinfo">
+                                    <button type="submit" id="profileinfo-submit" class="btn btn-primary">Submit</button>
+                                </div>
+                                                <!--End modal body-->
+                            </div>
+                                            <!--End modal content-->
+                        </div>
+                                        <!--End modal-dialog-->
+                    </div>
+                
+                    
+                
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                    crossorigin="anonymous"></script>
+                    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/alertify.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+                    <script src="/js/profile.js"></script> 
+        </div>   
