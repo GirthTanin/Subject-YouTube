@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default {
     // Gets all books
-    getVideo: function() {
+    getTutorials: function() {
         // this will need to be tutorials rather than books...
       return axios.get("/api/books");
     },
