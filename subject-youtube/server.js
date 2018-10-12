@@ -31,7 +31,7 @@ if (process.env.NODE_ENV === "test") {
   syncOptions.force = true;
 }
 
-require("./config/passport/passport.js")(passport, db.user);
+require("./config/passport/passport.js")(passport, db.user);S
 
 mongoose.connect(
     process.env.MONGODB_URI || "mongodb://localhost/subject-youtube"
