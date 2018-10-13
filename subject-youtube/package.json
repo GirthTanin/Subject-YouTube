@@ -1,0 +1,24 @@
+{
+  "name": "subject-youtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GirthTanin/Subject-YouTube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GirthTanin/Subject-YouTube/issues"
+  },
+  "homepage": "https://github.com/GirthTanin/Subject-YouTube#readme"
+}
