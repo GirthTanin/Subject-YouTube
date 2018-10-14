@@ -1,14 +1,31 @@
 // Not entirely sure how this works, but I'm terrible at keeping keys etc safe.
 require("dotenv").config();
 
-const express = require ("express");
+const express = require ('express');
+
+const app = express();
+
+//set up view engine
+app.set('view engine', 'ejs');
+
+//create home route
+app.get('/', (req, res)=> {
+    res.render('home');
+});
+
+
+const authRoutes = require('/routes/auth-routes');
+
 // how does body parser work...
 const bodyParser = require("body-parser");
 const mongoose = require ("mongoose");
 const routes = require ("./routes");
 const app = express();
 const passport = require("passport");
-const PORT = process.env.PORT || 1515;
+const PORT = process.env.PORT || 3000;
+ 
+//set up routes
+app.use('/auth', authRoutes);
  
 //this is middleware
 app.use(express.urlencoded({ extended: true }));
@@ -39,6 +56,6 @@ mongoose.connect(
     process.env.MONGODB_URI || "mongodb://localhost/subject-youtube"
 );
 
-app.listen(PORT, function() {
+app.listen(3000, () => {
     console.log(`🌎 ==> API Server now listening on PORT ${PORT}!`);
 });
