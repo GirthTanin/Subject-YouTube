@@ -4,6 +4,13 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.3.3",
+    "nodemon": "^1.18.4",
     "passport": "^0.4.0"
   },
   "devDependencies": {},
