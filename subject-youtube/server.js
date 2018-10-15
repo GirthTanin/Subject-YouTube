@@ -2,13 +2,15 @@
 require("dotenv").config();
 
 const express = require ("express");
-// how does body parser work...
+
+// body parser is going to chop up just the stuff that needs to be updated
 const bodyParser = require("body-parser");
 const mongoose = require ("mongoose");
 const routes = require ("./routes");
 const passport = require("passport");
 const PORT = process.env.PORT || 1515;
- 
+const app = express();
+
 //this is middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
