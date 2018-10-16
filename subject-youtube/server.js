@@ -5,8 +5,14 @@ const express = require ("express");
 
 // body parser is going to chop up just the stuff that needs to be updated
 const bodyParser = require("body-parser");
+// this will be the guy that takes and brings everything from mongo
+const mongodb = require ("mongodb");
 const mongoose = require ("mongoose");
+
+// this will create the traffic cop to direct everything and be the gatekeeper
 const routes = require ("./routes");
+
+// this is all the authentication
 const passport = require("passport");
 const PORT = process.env.PORT || 1515;
 const app = express();
