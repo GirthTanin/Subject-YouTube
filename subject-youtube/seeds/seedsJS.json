@@ -1,0 +1,89 @@
+{
+    "title": "JavaScript Fundamentals For Beginners",
+    "tutor": "Traversy Media",
+    "series": false,
+    "url": "https://www.youtube.com/embed/vEROU2XtPR8",
+    "useful": 1,
+    "notUseful": 0
+}
+{
+    "title": "JavaScript Tutorial",
+    "tutor": "Derek Banas",
+    "series": false,
+    "url": "https://www.youtube.com/embed/fju9ii8YsGs",
+    "useful": 1,
+    "notUseful": 0,
+    "seriesId": ""
+}
+{
+    "title": "Learn JavaScript in 12 Minutes",
+    "tutor": "Jake Wright",
+    "series": false,
+    "url": "https://www.youtube.com/embed/Ukg_U3CnJWI",
+    "useful": 1,
+    "notUseful": 0,
+    "seriesId": ""
+}
+{
+    "title": "JavaScript DOM Crash Course - Part 1",
+    "tutor": "Traversy Media",
+    "series": true,
+    "url": "https://www.youtube.com/embed/0ik6X4DJKCc",
+    "useful": 1,
+    "notUseful": 0,
+    "seriesId": "1/4"
+}
+{
+    "title": "JavaScript DOM Crash Course - Part 2",
+    "tutor": "Traversy Media",
+    "series": true,
+    "url": "https://www.youtube.com/embed/mPd2aJXCZ2g",
+    "useful": 1,
+    "notUseful": 0,
+    "seriesId": "2/4"
+}
+{
+    "title": "JavaScript DOM Crash Course - Part 3",
+    "tutor": "Traversy Media",
+    "series": true,
+    "url": "https://www.youtube.com/embed/wK2cBMcDTss",
+    "useful": 1,
+    "notUseful": 0,
+    "seriesId": "3/4"
+}
+{
+    "title": "JavaScript DOM Crash Course - Part 4",
+    "tutor": "Traversy Media",
+    "series": true,
+    "url": "https://www.youtube.com/embed/i37KVt_IcXw",
+    "useful": 1,
+    "notUseful": 0,
+    "seriesId": "4/4"
+}
+{
+    "title": "JavaScript: Understanding the Weird Parts - The First 3.5 Hours",
+    "tutor": "Tony Alicea",
+    "series": false,
+    "url": "https://www.youtube.com/embed/Bv_5Zv5c-Ts",
+    "useful": 1,
+    "notUseful": 0,
+    "seriesId": ""
+}
+{
+    "title": "Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf",
+    "tutor": "JSConf",
+    "series": false,
+    "url": "https://www.youtube.com/embed/e-5obm1G_FY",
+    "useful": 1,
+    "notUseful": 0,
+    "seriesId": ""
+}
+{
+    "title": "JavaScript Pro Tips - Code This, NOT That",
+    "tutor": "Angular Firebase",
+    "series": false,
+    "url": "https://www.youtube.com/embed/Mus_vwhTCq0",
+    "useful": 1,
+    "notUseful": 0,
+    "seriesId": ""
+}

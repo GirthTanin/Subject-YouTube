@@ -8,24 +8,28 @@ var tutorialSchema = new Schema({
     trim: true,
     required: "Tutorial Name is Required"
     },
+  tutor: {
+    type: String,
+    trim: true,
+    },  
   series: {
-        type: Boolean,
-        required: "Is this part of a series?"
+    type: Boolean,
+    required: "Is this part of a series?"
     },
-    link: {
-        type: String,
-        required: true
+  url: {
+    type: String,
+    required: true
     },
-    useful: {
-        type: Number,
-        required: true,
+  useful: {
+    type: Number,
+    required: true,
     },
-    notUseful: {
-        type: Number,
-        required: true
+  notUseful: {
+    type: Number,
+    required: true
     },
-    seriesId: {
-        type: String,
+  seriesId: {
+    type: String,
 
     }
 });
