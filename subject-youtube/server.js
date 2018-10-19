@@ -19,6 +19,7 @@ const app = express();
 //this is middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
 //static assets
 if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
@@ -27,11 +28,11 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Passport Routes
-require("./routes/AuthRoutes.js")(app, passport);
-require("./routes/apiRoutes")(app, passport);
-require("./routes/htmlRoutes")(app, passport);
+// require("./routes/AuthRoutes.js")(app, passport);
+// require("./routes/apiRoutes")(app, passport);
+// require("./routes/htmlRoutes")(app, passport);
 
-var syncOptions = { force: false };
+// var syncOptions = { force: false };
 
 // If running a test, set syncOptions.force to true! //test from project 2
 // clearing the `testdb`
@@ -39,11 +40,13 @@ if (process.env.NODE_ENV === "test") {
   syncOptions.force = true;
 }
 
-require("./config/passport/passport.js")(passport, db.user);S
+// require("./config/passport/passport.js")(passport, db.user);
 
 mongoose.connect(
     process.env.MONGODB_URI || "mongodb://localhost/subject-youtube"
 );
+
+mongoose.Promise = Promise;
 
 app.listen(PORT, function() {
     console.log(`🌎 ==> API Server now listening on PORT ${PORT}!`);
