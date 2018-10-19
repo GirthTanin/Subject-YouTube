@@ -18,8 +18,8 @@
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
-    "test": "test",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "test": "test",
     "client": "cd client && npm run start",
     "install": "cd client && yarn install",
     "build": "cd client && npm run build",
@@ -39,4 +39,4 @@
     "url": "https://github.com/GirthTanin/Subject-YouTube/issues"
   },
   "homepage": "https://github.com/GirthTanin/Subject-YouTube#readme"
-}
+} 
