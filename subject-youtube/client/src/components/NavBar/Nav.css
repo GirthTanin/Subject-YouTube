@@ -1,12 +1,49 @@
+.container {
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.list-group-item {
+    line-height: 2.5;
+}
+
+li {
+    text-align: right;
+}
+
+.nav {
+    list-style: -webkit-image-set();
+}
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: 5px;
   }
-  .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+
+  /* something here to figure out */
+  .collapse:not(.show) {
+    display: list-item;
+}
+
+  .navbar-toggle {
+      display: none!important;
   }
+  .navbar-nav  li a:hover {
+    color: #1abc9c!important;
+  }
+
+  .navbar-right {
+      float: right!important;
+      margin-right: 15px;
+  }
+
+/* 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> */

@@ -34,7 +34,8 @@ class TestPage extends Component {
 
                 <br></br>
                 <br></br>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/q81suQISQok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                
+                <iframe id="frame" width="560" height="315" src="https://www.youtube.com/embed/q81suQISQok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         )
     }
