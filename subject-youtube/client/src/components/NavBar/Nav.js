@@ -1,5 +1,8 @@
 import React from "react";
 // import { Link } from "react-router-dom";
+
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 import "./Nav.css";
 
 // for more tips on how we do more of this... https://github.com/linalockheart/nyt-react-search/blob/master/client/src/components/Nav/Nav.js

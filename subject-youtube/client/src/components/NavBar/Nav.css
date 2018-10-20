@@ -30,7 +30,9 @@ li {
 
   /* something here to figure out */
   .collapse:not(.show) {
-    display: list-item;
+      text-align: right;
+      float: right;
+    display: inherit;
 }
 
   .navbar-toggle {
