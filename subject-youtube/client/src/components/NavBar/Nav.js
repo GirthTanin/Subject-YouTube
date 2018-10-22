@@ -5,6 +5,7 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 import "./Nav.css";
 
+
 // for more tips on how we do more of this... https://github.com/linalockheart/nyt-react-search/blob/master/client/src/components/Nav/Nav.js
 
 const Nav = () => (

@@ -1,0 +1,11 @@
+.welcome {
+    text-align: center;
+    color: black;
+    background-image: url("./client/public/images/Watertown-Sunset.JPG");
+    height: 400px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* background-color:#121233; */
+}
