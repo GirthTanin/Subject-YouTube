@@ -35,55 +35,55 @@
     "seriesId": "1/30"
 }
 {
-    "title": "",
-    "tutor": "",
+    "title": "HTML5 Tutorial for Beginners - 01 - Introduction",
+    "tutor": "EJ Media",
+    "series": true,
+    "url": "https://www.youtube.com/embed/Sa6lzOe-e70",
+    "useful": 1,
+    "notUseful": 0,
+    "seriesId": "1/12"
+}
+{
+    "title": "HTML Full Course - Build a Website Tutorial",
+    "tutor": "freeCodeCamp.org",
     "series": false,
-    "url": "",
+    "url": "https://www.youtube.com/embed/pQN-pnXPaVg",
     "useful": 1,
     "notUseful": 0,
     "seriesId": ""
 }
 {
-    "title": "",
-    "tutor": "",
+    "title": "HTML5 as Fast As Possible",
+    "tutor": "Techquickie",
     "series": false,
-    "url": "",
+    "url": "https://www.youtube.com/embed/IsXEVQRaTX8",
+    "useful": 1,
+    "notUseful": 2,
+    "seriesId": ""
+}
+{
+    "title": "Introduction to HTML Programming",
+    "tutor": "Eli the Computer Guy",
+    "series": false,
+    "url": "https://www.youtube.com/embed/fS7w-TXinPE",
+    "useful": 3,
+    "notUseful": 0,
+    "seriesId": ""
+}
+{
+    "title": "Build An HTML5 Website With A Responsive Layout",
+    "tutor": "Traversy Media",
+    "series": false,
+    "url": "https://www.youtube.com/embed/Wm6CUkswsNw",
     "useful": 1,
     "notUseful": 0,
     "seriesId": ""
 }
 {
-    "title": "",
-    "tutor": "",
+    "title": "Learn HTML in 15 Minutes",
+    "tutor": "Derek Banas",
     "series": false,
-    "url": "",
-    "useful": 1,
-    "notUseful": 0,
-    "seriesId": ""
-}
-{
-    "title": "",
-    "tutor": "",
-    "series": false,
-    "url": "",
-    "useful": 1,
-    "notUseful": 0,
-    "seriesId": ""
-}
-{
-    "title": "",
-    "tutor": "",
-    "series": false,
-    "url": "",
-    "useful": 1,
-    "notUseful": 0,
-    "seriesId": ""
-}
-{
-    "title": "",
-    "tutor": "",
-    "series": false,
-    "url": "",
+    "url": "https://www.youtube.com/embed/Ggh_y-33Eso",
     "useful": 1,
     "notUseful": 0,
     "seriesId": ""
