@@ -1,6 +1,19 @@
-# Subject-YouTube
-Subject-YouTube
+# ![WebApp](https://github.com/girthtanin/subject-youtube/subject-youtube/client/public/images/subject_youtube_logo.png)
 
-This is project #3 for the Trilogy Boot Camp at the University of Pennsylvania
+## Description
+Web based tutorial learning without any distractions
 
-Many people in our world are overly susceptible to distraction, and several businesses or tools of our society are geared to create an addictive or distracting capability over their users.  My focus is on YouTube, and for all the wonders and education that it can bring us, it also has in its DNA a pull to show us many shiny nickles to bring advertising to us and expand our appreciation for all the content there.  My desire is to have a way to use the educational content on YouTube, but place it in an environment that does not have the goal of leading your attention to something less than what you wanted to learn about.
+## Website Features
+Database library of videos organized so users can study the subjects they want to learn about
+
+## Technologies Used
+Application built on the MERN stack: <br>
+- MongoDB <br>
+- Express <br>
+- Reactjs <br>
+- Nodejs <br>
+
+## Author(s)
+  - [Jonathan McCarthy](https://github.com/girthtanin)
+  - [Kyle Carney](https://github.com/kylecarney) 
+
