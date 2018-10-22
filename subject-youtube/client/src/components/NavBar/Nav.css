@@ -28,12 +28,6 @@ li {
     letter-spacing: 5px;
   }
 
-  /* something here to figure out */
-  .collapse:not(.show) {
-      text-align: right;
-      float: right;
-    display: inherit;
-}
 
   .navbar-toggle {
       display: none!important;
@@ -46,6 +40,3 @@ li {
       float: right!important;
       margin-right: 15px;
   }
-
-/* 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> */

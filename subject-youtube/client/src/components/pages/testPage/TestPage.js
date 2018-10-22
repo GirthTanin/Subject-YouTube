@@ -24,7 +24,7 @@ class TestPage extends Component {
                 <form>
 <div className="form-group">
 <label for="exampleInputEmail1">Video URL Upload</label>
-<input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter video url" />
+<input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter video url or Sign In to Add to Database" />
 </div>
 <button type="submit" className="btn btn-primary">Submit</button>
 </form>
@@ -35,8 +35,17 @@ class TestPage extends Component {
                 <br></br>
                 <br></br>
                 
-                <iframe id="frame" width="560" height="315" src="https://www.youtube.com/embed/q81suQISQok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe id="frame" width="1120" height="630" src="https://www.youtube.com/embed/q81suQISQok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <br></br>
+            <br></br>
+
+            <iframe id="frame" width="1120" height="630" src="https://www.youtube.com/embed/dD2EISBDjWM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
             </div>
+
+            
         )
     }
 }
