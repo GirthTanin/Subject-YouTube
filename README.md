@@ -8,7 +8,7 @@ Database library of videos organized so users can study the subjects they want t
 
 ## Technologies Used
 Application build on the MERN stack: <br>
-MongoDB
+MongoDB <br>
 Express <br>
 Reactjs <br>
 Nodejs <br>
