@@ -7,11 +7,11 @@ Web based tutorial learning without any distractions
 Database library of videos organized so users can study the subjects they want to learn about
 
 ## Technologies Used
-Application build on the MERN stack:
+Application build on the MERN stack: <br>
 MongoDB
-Express
-Reactjs
-Nodejs
+Express <br>
+Reactjs <br>
+Nodejs <br>
 
 ## Author(s)
   - [Jonathan McCarthy](https://github.com/girthtanin)
