@@ -13,10 +13,10 @@ import {
 } from "./components";
 
 // import Bootstrap from 'bootstrap';
-import TestPage from "./components/pages/testPage";
-import Nav from './components/NavBar/Nav.js';
-// import Nav2 from './components/Nav2/Nav2';
-// import Footer from "./components/footer/Footer";
+import TestPage from "./componentsMine/pages/testPage";
+import Nav from './componentsMine/NavBar/Nav.js';
+// import Nav2 from './componentsMine/Nav2/Nav2';
+// import Footer from "./componentsMine/footer/Footer";
 import './App.css';
 
 class App extends Component {
