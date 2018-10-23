@@ -13,6 +13,7 @@ class TestPage extends Component {
             // this is connected to the component, not the form or button.
             url: this.state.inputURL
         })
+        // .then comes from the response.json in the controllers...
     }
 
     // this will return our rendering of whatever...

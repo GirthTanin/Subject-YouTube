@@ -8,4 +8,4 @@ module.exports = {
             .then(dbModel => response.json(dbModel))
             .catch(err => console.log(err));    
     }
-}
+} 
